@@ -9,8 +9,21 @@ function PrivateRoute({ children }: { children: React.ReactNode }) {
 }
 
 function App() {
+  const backgroundStyle = {
+    backgroundImage: `url("https://i.makeagif.com/media/2-21-2023/2A36v2.gif")`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    height: '100vh',
+    width: '100vw',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  };
+
   return (
-    <Router>
+    <div style={backgroundStyle}>
+      <Router>
       <Routes>
         <Route path="/" element={<AuthPage />} />
         <Route
@@ -23,6 +36,7 @@ function App() {
         />
       </Routes>
     </Router>
+    </div>
   );
 }
 

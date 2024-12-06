@@ -21,7 +21,7 @@ export function GamesPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 p-8">
+    <div className="min-h-80 p-8 bg-gray-50">
       <div className="max-w-4xl mx-auto">
         <div className="flex justify-between items-center mb-8">
           <div>
@@ -49,7 +49,7 @@ export function GamesPage() {
               className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
             >
               <h3 className="text-xl font-bold mb-2">Catch the Star</h3>
-              <p className="text-gray-600">IDK This was She's idea.</p>
+              <p className="text-gray-600">Catch the falling stars!.</p>
             </button>
 
             <button
@@ -57,7 +57,7 @@ export function GamesPage() {
               className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
             >
               <h3 className="text-xl font-bold mb-2">FindTheOddColorGame</h3>
-              <p className="text-gray-600">IDK This was She's idea.</p>
+              <p className="text-gray-600">This is the best of all, just pick the weird color.</p>
             </button>
 
             <button
